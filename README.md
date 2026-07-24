@@ -76,7 +76,7 @@ Open-source viewers you can self-host or build on.
 - [FFmpeg v360 filter](https://ffmpeg.org/ffmpeg-filters.html#v360) — Convert between equirectangular, cubemap, fisheye, and other projections; the Swiss-army knife of 360 processing.
 - [Google Spatial Media Tools](https://github.com/google/spatial-media) — Inject the spherical metadata YouTube and players need to recognize a file as 360.
 - [ExifTool](https://exiftool.org/) — Read and write GPano/XMP panorama metadata in photos.
-- [mirame360-spatial-metadata](https://github.com/mirame360/mirame360-spatial-metadata) — Inspect and repair missing spherical metadata in one command, for both photos (GPano XMP) and video (Spherical Video V2); wraps ExifTool and Google's Spatial Media tools with clearer errors and validation.
+- [mirame360-spatial-metadata](https://github.com/mirame360/mirame360-spatial-metadata) — Inspect and repair missing spherical metadata in one command, for both photos (GPano XMP) and video (Spherical Video V2); wraps ExifTool and Google's Spatial Media tools with clearer errors and validation. Installable via Homebrew: `brew install mirame360/mirame360/mirame360-metadata`, or `pip install -e .` from source. CLI command: `mirame360-metadata inspect|inject-image|inject-video FILE`.
 
 ## Formats & Metadata
 
